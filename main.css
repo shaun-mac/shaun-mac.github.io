@@ -1,9 +1,18 @@
+body {
+  background: #F3DAD8;
+}
+#coming-soon {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 #container {
   display: block;
   margin: 0 auto;
   width: 80%;
 }
-p {
+h1, p {
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
 }
