@@ -76,7 +76,7 @@ a {
 }
 
 a:hover {
-  color: #820000;
+  color: #820000 !important;
 }
 
 a:visited {
