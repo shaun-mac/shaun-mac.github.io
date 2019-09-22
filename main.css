@@ -30,6 +30,7 @@ body {
   justify-content: center;
   text-align: right;
 }
+
 .projects-overview {
   height: 100%;
 }
@@ -63,10 +64,23 @@ p, li {
   font-family: 'Poppins', sans-serif;
   color: #888;
   margin: 0;
-
 }
+
 .description {
   margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3c0000;
+}
+
+a:hover {
+  color: #820000;
+}
+
+a:visited {
+  color: #3c0000;
 }
 
 img {
