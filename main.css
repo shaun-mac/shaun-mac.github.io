@@ -1,6 +1,7 @@
 body {
   background: #000;
   height: 100vh;
+  margin: 0;
 }
 
 #two-cols {
@@ -14,6 +15,14 @@ body {
   display: flex;
   flex-direction: column;
   background: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #coming-soon,
+  .projects-overview,
+  .projects-page {
+    width: 90%;
+  }
 }
 
 #coming-soon {
@@ -49,15 +58,15 @@ h1 {
   font-family: 'Poppins', sans-serif;
   color: #000;
 }
-/*
-.emphasis {
-  color: #820909;
-} */
 
 p, li {
   font-family: 'Poppins', sans-serif;
   color: #888;
   margin: 0;
+
+}
+.description {
+  margin-bottom: 10px;
 }
 
 img {
