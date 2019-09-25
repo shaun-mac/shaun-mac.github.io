@@ -17,14 +17,6 @@ body {
   background: #fff;
 }
 
-@media screen and (max-width: 600px) {
-  #coming-soon,
-  .projects-overview,
-  .projects-page {
-    width: 90%;
-  }
-}
-
 #coming-soon {
   height: 100%;
   justify-content: center;
@@ -91,4 +83,17 @@ img {
   -webkit-box-shadow: 10px 10px 45px -16px rgba(189,185,189,1);
   -moz-box-shadow: 10px 10px 45px -16px rgba(189,185,189,1);
   box-shadow: 10px 10px 45px -16px rgba(189,185,189,1);
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 27px;
+  }
+
+  #coming-soon,
+  .projects-overview,
+  .projects-page {
+    width: 90%;
+  }
 }
