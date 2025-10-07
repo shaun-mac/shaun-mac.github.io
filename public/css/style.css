@@ -310,21 +310,31 @@ footer {
 	}
 
 	.content {
-		padding: 0px;
+		padding: 0 30px;
 	}
+
 	.container {
 	    flex-direction: column;
+	}
+
+	p {
+		margin-bottom: 10px;
+		font-size: 16px;
 	}
 
 	.sidebar {
 		font-size: 0.8em;
 		flex: 0 0 auto;
-		flex-flow: row nowrap;
 		height: auto;
+	}
+
+	.sidebar-brand {
+		font-size: 120%;
 	}
 
 	.sidebar-nav {
 		margin: 0px;
+		font-size: 120%;
 	}
 
 	.sidebar-item {
@@ -332,7 +342,7 @@ footer {
 	}
 
 	.sidebar-header {
-		margin-bottom: 0px;
+		margin: 20px 0 0 0;
 	}
 
 	.sidebar-footer {
