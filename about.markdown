@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Coming soon!
+Human-generated slop
